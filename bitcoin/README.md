@@ -1,12 +1,22 @@
 # Bitcoin
 
-## Build
+## Usage
 
-build image
+### Build
+
 ```
 docker build --build-arg TARGETPLATFORM=linux/amd64 -t sb-docker-bitcoin .
-docker run --rm sb-docker-bitcoin bitcoind
+```
 
+### Run
+
+```
+docker run --rm sb-docker-bitcoin bitcoind
+```
+
+### Push
+
+```
 docker tag sb-docker-bitcoin quay.io/scriptonbasestar/sb-docker-bitcoin
 docker push quay.io/scriptonbasestar/sb-docker-bitcoin
 ```
