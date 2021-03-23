@@ -1,4 +1,4 @@
-# sb-docker-bitcoin
+# Bitcoin
 
 build image
 ```
